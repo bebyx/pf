@@ -1,14 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-import Header from "../components/header"
+import Navbar from "../components/navbar"
 
 function Skills() {
 	return (
-		<div>
-			<Header pageTitle="Skills"/>
+		<>
+		<Navbar />
+		<div style={{ margin: `2rem auto`, maxWidth: 600 }}>
+			<h1>Skills</h1>
 			<p>Small step for a great start</p>
-			<Link to="/">About</Link>
 		</div>
+		</>
 		);
 }
 
