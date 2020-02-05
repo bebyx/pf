@@ -1,12 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
 
+function ListLink(props) {
+	return (
+	  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+	    <Link to={props.to}>{props.children}</Link>
+	  </li>
+	)
+}
+
 function Navbar() { 
-	return (<nav style={{float: `right`}}>
-			   	<Link to="/">About</Link>&nbsp;
-			   	<Link to="/skills">Skills</Link>&nbsp;
-			   	<Link to="/contact">Contact</Link>
-		    </nav>);
+	return (
+		<header>
+			<nav style={{ display: `flex`}}>
+				<ul style={{ listStyle: `none`, marginLeft: `auto`}}>
+				   	<ListLink to="/">About</ListLink>&nbsp;
+				   	<ListLink to="/skills">Skills</ListLink>&nbsp;
+				   	<ListLink to="/contact">Contact</ListLink>
+			   	</ul>
+		    </nav>
+		</header>
+	);
 }
 
 export default Navbar;
