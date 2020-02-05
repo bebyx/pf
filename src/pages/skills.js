@@ -2,14 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 
-function Index() {
+function Skills() {
 	return (
 		<div>
-			<Header pageTitle="About"/>
+			<Header pageTitle="Skills"/>
 			<p>Small step for a great start</p>
-			<Link to="/skills">Skills</Link>
+			<Link to="/">About</Link>
 		</div>
 		);
 }
 
-export default Index;
+export default Skills;
