@@ -14,8 +14,8 @@ function Navbar() {
 		<header>
 			<nav style={{ display: `flex`}}>
 				<ul style={{ listStyle: `none`, marginLeft: `auto`}}>
-				   	<ListLink to="/">About</ListLink>&nbsp;
-				   	<ListLink to="/skills">Skills</ListLink>&nbsp;
+				   	<ListLink to="/">About</ListLink>
+				   	<ListLink to="/skills">Skills</ListLink>
 				   	<ListLink to="/contact">Contact</ListLink>
 			   	</ul>
 		    </nav>
