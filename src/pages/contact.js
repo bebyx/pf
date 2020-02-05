@@ -1,16 +1,17 @@
 import React from "react"
 import Navbar from "../components/navbar"
+import Layout from "../components/layout"
 
-function Index() {
+function Contact() {
 	return (
 		<>
 			<Navbar />
-			<div style={{ margin: `2rem auto`, maxWidth: 600 }}>
+			<Layout>
 				<h1>Contact</h1>
 				<p>Small step for a great start</p>
-			</div>
+			</Layout>
 		</>
 		);
 }
 
-export default Index;
+export default Contact;

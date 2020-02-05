@@ -1,14 +1,15 @@
 import React from "react"
 import Navbar from "../components/navbar"
+import Layout from "../components/layout"
 
 function Skills() {
 	return (
 		<>
-		<Navbar />
-		<div style={{ margin: `2rem auto`, maxWidth: 600 }}>
-			<h1>Skills</h1>
-			<p>Small step for a great start</p>
-		</div>
+			<Navbar />
+			<Layout>
+				<h1>Skills</h1>
+				<p>Small step for a great start</p>
+			</Layout>
 		</>
 		);
 }
