@@ -1,9 +1,9 @@
 import Typography from "typography"
 import noriegaTheme from "typography-theme-noriega"
 
-noriegaTheme.baseFontSize = '29px'
-noriegaTheme.scaleRatio = 6.00
-noriegaTheme.headerFontFamily = ['Lato', 'san-serif']
+noriegaTheme.baseFontSize = '29rem'
+noriegaTheme.scaleRatio = 5.00
+noriegaTheme.headerFontFamily = ['Helvetica', 'sans-serif']
 
 
 const typography = new Typography(noriegaTheme)
