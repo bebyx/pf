@@ -1,7 +1,7 @@
 import Typography from "typography"
 import noriegaTheme from "typography-theme-noriega"
 
-noriegaTheme.baseFontSize = '29rem'
+noriegaTheme.baseFontSize = '29px'
 noriegaTheme.scaleRatio = 5.00
 noriegaTheme.headerFontFamily = ['Helvetica', 'sans-serif']
 

@@ -1,0 +1,13 @@
+a {
+	color: green;
+}
+
+a:hover {
+	background-color: green;
+	color: white;
+}
+
+.active {
+	background-color: green;
+	color: white !important;
+}

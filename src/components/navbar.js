@@ -1,10 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
+
+function isActive( {isCurrent} ) {
+	return isCurrent ? {className: "active"} : null
+}
+
 function ListLink(props) {
 	return (
 	  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-	    <Link to={props.to}>{props.children}</Link>
+	    <Link to={props.to} getProps={isActive}>{props.children}</Link>
 	  </li>
 	)
 }
