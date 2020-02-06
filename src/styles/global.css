@@ -2,12 +2,7 @@ a {
 	color: green;
 }
 
-a:hover {
+a:hover, .active, ::selection {
 	background-color: green;
 	color: white;
-}
-
-.active {
-	background-color: green;
-	color: white !important;
 }
